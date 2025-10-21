@@ -1,0 +1,24 @@
+{
+  "user_67486404-ec75-4dbc-8a74-a022e3128a78": [
+    {
+      "role": "user",
+      "content": "xin chào, tên tôi là Nhật",
+      "time": "2025-10-21 00:23:37"
+    },
+    {
+      "role": "assistant",
+      "content": "Xin chào Nhật, bạn có thể chia sẻ thêm về quốc gia hoặc ngành học bạn quan tâm để tôi hỗ trợ cụ thể hơn không?",
+      "time": "2025-10-21 00:23:37"
+    },
+    {
+      "role": "user",
+      "content": "Bạn thấy tên của tôi có đẹp không?",
+      "time": "2025-10-21 00:23:51"
+    },
+    {
+      "role": "assistant",
+      "content": "Tin nhắn của bạn không chứa thông tin liên quan đến du học. Tôi là La Bàn AI, trợ lý tư vấn du học chuyên nghiệp. Bạn có câu hỏi nào về việc chọn trường, ngành, học bổng hay quốc gia du học không?",
+      "time": "2025-10-21 00:23:51"
+    }
+  ]
+}

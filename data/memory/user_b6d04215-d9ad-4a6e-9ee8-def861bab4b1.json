@@ -1,0 +1,24 @@
+{
+  "user_b6d04215-d9ad-4a6e-9ee8-def861bab4b1": [
+    {
+      "role": "user",
+      "content": "Xin chào, tôi là Long",
+      "time": "2025-10-21 00:18:23"
+    },
+    {
+      "role": "assistant",
+      "content": "Xin chào Long, bạn có thể chia sẻ thêm về quốc gia hoặc ngành học bạn quan tâm để tôi hỗ trợ cụ thể hơn không?",
+      "time": "2025-10-21 00:18:23"
+    },
+    {
+      "role": "user",
+      "content": "Tôi muốn tìm hiểu về du học Đài Loan",
+      "time": "2025-10-21 00:18:42"
+    },
+    {
+      "role": "assistant",
+      "content": "Chào Long,\n\nBạn muốn tìm hiểu về du học Đài Loan. Để tôi có thể hỗ trợ bạn tốt nhất, bạn có thể cung cấp thêm thông tin về:\n\n*   Ngành học bạn quan tâm?\n*   Trình độ học vấn hiện tại của bạn (THPT, Đại học, Sau Đại học)?\n*   Mục tiêu du học của bạn là gì (học lấy bằng, trao đổi, học nghề)?",
+      "time": "2025-10-21 00:18:42"
+    }
+  ]
+}

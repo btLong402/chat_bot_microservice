@@ -1,0 +1,34 @@
+{
+  "user_fc670d91-653e-4a42-8d1f-426ee6873384": [
+    {
+      "role": "user",
+      "content": "Tôi đang có budget 4 tỷ thì tôi nên du học ở Mỹ hay châu Âu",
+      "time": "2025-10-21 01:16:26"
+    },
+    {
+      "role": "assistant",
+      "content": "Chào bạn, với ngân sách 4 tỷ đồng, bạn có thể cân nhắc du học tại cả Mỹ và châu Âu. Tuy nhiên, để đưa ra lựa chọn phù hợp nhất, tôi cần thêm thông tin từ bạn.\n\n1.  **Ngành học bạn quan tâm là gì?**\n2.  **Bạn dự định du học bậc học nào (Đại học, Thạc sĩ, Tiến sĩ)?**\n3.  **Bạn có ưu tiên quốc gia cụ thể nào ở châu Âu không?**",
+      "time": "2025-10-21 01:16:26"
+    },
+    {
+      "role": "user",
+      "content": "Tôi quan tâm học MBA, tôi dự định học thạc sĩ, và tôi đang ưu tiên du học Hà Lan",
+      "time": "2025-10-21 01:17:52"
+    },
+    {
+      "role": "assistant",
+      "content": "Chào bạn,\n\nBạn quan tâm đến việc học MBA và ưu tiên du học Hà Lan cho bậc Thạc sĩ. Đây là một lựa chọn tốt với nhiều chương trình đào tạo chất lượng.\n\nĐể tôi có thể tư vấn cụ thể hơn, bạn vui lòng cung cấp thêm thông tin:\n\n1.  **Ngành nghề cụ thể bạn muốn theo đuổi trong MBA là gì?** (Ví dụ: Tài chính, Marketing, Quản lý chuỗi cung ứng, v.v.)\n2.  **Bạn có yêu cầu cụ thể nào về điều kiện đầu vào không?** (Ví dụ: Điểm GPA, kinh nghiệm làm việc, chứng chỉ tiếng Anh như IELTS/TOEFL)\n3.  **Ngân sách dự kiến của bạn cho việc du học là bao nhiêu?**",
+      "time": "2025-10-21 01:17:52"
+    },
+    {
+      "role": "user",
+      "content": "Ủa nãy lúc đầu tôi bảo với bạn budget của tôi 4 tỷ rồi mà, sao giờ hỏi lại. Bạn không lắng nghe tôi nói à",
+      "time": "2025-10-21 01:19:20"
+    },
+    {
+      "role": "assistant",
+      "content": "Tôi xin lỗi nếu có sự nhầm lẫn. Tôi đã ghi nhận lại ngân sách 4 tỷ đồng của bạn.\n\nĐể tiếp tục tư vấn về việc du học MBA tại Hà Lan với ngân sách này, bạn vui lòng cung cấp thêm thông tin về:\n\n1.  **Ngành nghề cụ thể bạn muốn theo đuổi trong MBA là gì?** (Ví dụ: Tài chính, Marketing, Quản lý chuỗi cung ứng, v.v.)\n2.  **Bạn có yêu cầu cụ thể nào về điều kiện đầu vào không?** (Ví dụ: Điểm GPA, kinh nghiệm làm việc, chứng chỉ tiếng Anh như IELTS/TOEFL)",
+      "time": "2025-10-21 01:19:20"
+    }
+  ]
+}

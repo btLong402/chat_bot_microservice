@@ -1,0 +1,14 @@
+{
+  "user_4f56d62c-04bb-4d82-8903-3abddd818dd4": [
+    {
+      "role": "user",
+      "content": "Xin Chào",
+      "time": "2025-10-21 12:32:28"
+    },
+    {
+      "role": "assistant",
+      "content": "Xin chào, tôi là La Bàn AI, trợ lý tư vấn du học của bạn. Để tôi có thể hỗ trợ bạn tốt nhất, bạn vui lòng cung cấp thêm thông tin về quốc gia, ngành học, bậc học hoặc bất kỳ điều kiện nào bạn quan tâm nhé.",
+      "time": "2025-10-21 12:32:28"
+    }
+  ]
+}

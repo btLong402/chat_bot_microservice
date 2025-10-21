@@ -1,0 +1,25 @@
+# Requirements for Gemini RAG Chatbot
+# Keep versions broad but recent; adjust pins if your deployment environment requires specific versions.
+google-genai>=0.1.0
+# The older wrapper package `google-generative-ai` may not be available for
+# all Python versions on PyPI (causing "No matching distribution" errors).
+# Prefer the newer official client `google-genai` above. If you specifically
+# need the older wrapper, uncomment the line below and ensure your Python
+# version is compatible or install from the project's source if available.
+google-generativeai>=0.7.2
+python-dotenv>=1.0.0
+pypdf>=3.14.0
+faiss-cpu>=1.7.4
+langchain>=0.3.0
+numpy>=1.25.0
+rich>=13.3.0
+sentence-transformers>=2.2.2
+langchain-text-splitters>=0.0.1
+fastapi>=0.115.0
+pydantic>=2.0.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Optional / helpful tools
+# tqdm (progress bars), install if you want progress feedback during indexing
+# tqdm>=4.65.0

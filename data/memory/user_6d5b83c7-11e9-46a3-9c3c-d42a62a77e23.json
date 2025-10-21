@@ -1,0 +1,34 @@
+{
+  "user_6d5b83c7-11e9-46a3-9c3c-d42a62a77e23": [
+    {
+      "role": "user",
+      "content": "Xin chào",
+      "time": "2025-10-21 22:39:19"
+    },
+    {
+      "role": "assistant",
+      "content": "Chào bạn! Bạn đang cân nhắc du học bậc nào?",
+      "time": "2025-10-21 22:39:19"
+    },
+    {
+      "role": "user",
+      "content": "Với tài chính 4 tỉ tôi nên du học Châu Âu hay Châu Á",
+      "time": "2025-10-21 22:40:08"
+    },
+    {
+      "role": "assistant",
+      "content": "Chào bạn! Với tài chính 4 tỷ đồng, bạn có thể cân nhắc du học ở cả Châu Âu và Châu Á. Tuy nhiên, để đưa ra lời khuyên cụ thể, tôi cần thêm thông tin:\n\n1.  **Bậc học bạn muốn theo đuổi là gì?** (Ví dụ: Đại học, Thạc sĩ, Tiến sĩ, Chứng chỉ nghề...)\n2.  **Ngành học bạn quan tâm là gì?**\n3.  **Bạn có quốc gia hoặc khu vực cụ thể nào ở Châu Âu hoặc Châu Á mà bạn ưu tiên không?**\n\nDựa trên những thông tin này, tôi sẽ có thể phân tích chi phí, cơ hội học tập và các yếu tố khác để giúp bạn đưa ra quyết định phù hợp nhất.",
+      "time": "2025-10-21 22:40:08"
+    },
+    {
+      "role": "user",
+      "content": "Bậc Thạc sĩ, Ngành CNTT, Canada",
+      "time": "2025-10-21 22:41:00"
+    },
+    {
+      "role": "assistant",
+      "content": "Chào bạn! Với yêu cầu du học bậc Thạc sĩ ngành CNTT tại Canada, tôi cần thêm một số thông tin để có thể tư vấn chính xác nhất:\n\n1.  **Ngân sách dự kiến của bạn là bao nhiêu (tính theo VND/năm)?**\n2.  **Bạn có mong muốn cụ thể về thành phố hoặc tỉnh bang nào tại Canada không?**\n\nDựa trên những thông tin này, tôi sẽ có thể đưa ra các gợi ý về trường, học bổng và các yêu cầu đầu vào phù hợp với bạn.",
+      "time": "2025-10-21 22:41:00"
+    }
+  ]
+}
