@@ -1,0 +1,145 @@
+# ============================
+# Python
+# ============================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython / Jupyter Notebook
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+.poetry/
+
+# pyright / mypy / pylance / pytype
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (PyCharm, IntelliJ)
+.idea/
+
+# Environment variables / credentials
+.env
+.env.*
+*.env
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/          # 👈 thêm dòng này để ignore folder .venv
+
+# Logs
+*.log
+logs/
+*.out
+
+# MacOS
+.DS_Store
+
+# Jupyter runtime
+.jupyter/
+.ipython/
+
+# Project-specific
+__pypackages__/
+site/
+
+# Local test data or temporary files
+tmp/
+temp/
+*.tmp
+
+# ============================
+# Optional: Add project-specific ignores below
+# e.g., model checkpoints, datasets, etc.
+# ============================
+models/
+data/
+outputs/
