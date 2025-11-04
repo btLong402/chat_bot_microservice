@@ -1,0 +1,24 @@
+# Exclude git and local configuration
+.git
+.gitignore
+.github/
+
+# Python cache and virtualenvs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+
+# Local data and secrets
+.env
+.env.*
+data/
+images/
+logs/

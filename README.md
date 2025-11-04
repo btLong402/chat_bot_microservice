@@ -168,7 +168,20 @@ Server sẽ khởi động tại `http://localhost:8000`
 gunicorn -w 4 -k uvicorn.workers.UvicornWorker app:app --bind 0.0.0.0:8000
 ```
 
-## 📡 API Endpoints
+### Chạy bằng Docker
+
+```bash
+docker build -t rag-gemini .
+docker run --rm -it \
+  --env-file .env \
+  -p 8000:8000 \
+  -v "$(pwd)/data:/app/data" \
+  rag-gemini
+```
+
+> � Nhớ tạo sẵn file `.env` và thư mục `data/` trong máy host để container đọc được cấu hình, bộ nhớ hội thoại và tài liệu.
+
+## �📡 API Endpoints
 
 ### 1. Health Check
 
@@ -473,3 +486,17 @@ Nếu gặp vấn đề:
 
 **Được tạo bởi**: Du học Mentor Pro Team  
 **License**: Proprietary
+
+## ☁️ Triển khai GitHub Actions & Amazon EC2
+
+- **Workflow CI/CD**: `./.github/workflows/deploy-ec2.yml` build Docker image, push lên Amazon ECR và SSH lên EC2 để chạy container mới.
+- **Secrets bắt buộc** (trong GitHub repo → Settings → Secrets and variables → Actions):
+  - `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_REGION`
+  - `ECR_REPOSITORY` (ví dụ `rag-gemini-service`)
+  - `EC2_HOST` (public IP hoặc domain), `EC2_USER` (thường là `ec2-user` hoặc `ubuntu`), `EC2_SSH_KEY` (private key dạng PEM), tùy chọn `EC2_SSH_PORT` nếu khác 22.
+- **Chuẩn bị trên EC2**:
+  - Cài Docker và AWS CLI (`sudo yum install -y docker awscli` hoặc tương đương, bật `docker` service và thêm user vào group nếu cần).
+  - Tạo thư mục `/opt/microservice`, copy file `.env` chứa API key, microservice key, cấu hình khác.
+  - Mở port 8000 (hoặc port bạn map) trong Security Group.
+- **Chu kỳ deploy**: mỗi lần `git push` lên branch `main` hoặc chạy `workflow_dispatch`, GitHub Actions sẽ build image, cập nhật tag mới nhất trên ECR và khởi động lại container `rag-gemini` trên EC2.
+- **Tuỳ biến**: sửa script SSH trong workflow để đổi port, mount volume khác, hoặc thêm lệnh migrate trước khi `docker run`.
